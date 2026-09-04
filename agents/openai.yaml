@@ -1,3 +1,6 @@
-name: skill-template
-entrypoint: SKILL.md
-canonical_root: SKILL.md
+interface:
+  display_name: "Factor Calendar Formulas"
+  short_description: "Compute 241 Factor Calendar formulas from daily panel data"
+  default_prompt: "Use $factor-calendar-formulas to compute selected Factor Calendar values from this daily market and point-in-time fundamental dataset and report the output files."
+policy:
+  allow_implicit_invocation: true

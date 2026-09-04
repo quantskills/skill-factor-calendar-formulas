@@ -1,0 +1,20 @@
+{
+  "market_data_path": "toy_market_data.csv",
+  "output_dir": "outputs/factor_calendar_compute_example",
+  "factor_names": [
+    "factor-calendar.amount_volatility",
+    "factor-calendar.book_to_market_ratio"
+  ],
+  "exclude_factor_names": [],
+  "column_mapping": {},
+  "load_start_date": "",
+  "load_end_date": "",
+  "start_date": "",
+  "end_date": "",
+  "symbols": [],
+  "output_format": "csv",
+  "output_layout": "wide",
+  "n_jobs": 1,
+  "strict": true,
+  "show_progress": true
+}
