@@ -1,8 +1,15 @@
+# Python
 __pycache__/
-*.pyc
-.DS_Store
-# Git 卫生:原始导出与大数据不入库
-*.parquet
-prices/
-real_runs/
-sources/
+*.py[cod]
+.pytest_cache/
+.coverage
+
+# Local outputs
+outputs/
+examples/outputs/
+.skill_outputs/
+
+# Local-only configs and data
+*.local.json
+.env
+examples/market_data_*.csv

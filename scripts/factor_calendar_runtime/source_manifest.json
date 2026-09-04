@@ -1,0 +1,10 @@
+{
+  "name": "Factor Calendar Formulas",
+  "version": "1.0.0",
+  "formula_count": 241,
+  "documentation_site": "https://factors.directory/en",
+  "documentation_site_zh": "https://factors.directory/zh",
+  "implementation": "self-contained Python formulas",
+  "value_semantics": "raw_formula_output",
+  "runtime_network_access": false
+}
